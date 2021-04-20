@@ -1,6 +1,6 @@
 {
   "name": "vant",
-  "version": "3.0.13",
+  "version": "3.0.14",
   "description": "Mobile UI Components built on Vue",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -50,18 +50,17 @@
   "author": "youzanfe",
   "license": "MIT",
   "dependencies": {
-    "@babel/runtime": "7.x",
     "@vant/icons": "^1.5.3",
-    "@vant/lazyload": "^1.1.0",
+    "@vant/lazyload": "^1.1.1",
     "@vant/popperjs": "^1.1.0",
-    "@vant/use": "^1.1.0"
+    "@vant/use": "^1.1.1"
   },
   "peerDependencies": {
     "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@vant/cli": "^3.10.0",
-    "@vant/area-data": "^1.0.0",
+    "@vant/cli": "^3.10.2",
+    "@vant/area-data": "^1.1.0",
     "@vue/compiler-sfc": "^3.0.6",
     "vue": "^3.0.6"
   },
@@ -75,5 +74,7 @@
     "tags": "vetur/tags.json",
     "attributes": "vetur/attributes.json"
   },
-  "web-types": "vetur/web-types.json"
+  "web-types": "vetur/web-types.json",
+  "unpkg": "lib/vant.min.js",
+  "jsdelivr": "lib/vant.min.js"
 }

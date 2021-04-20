@@ -1,5 +1,20 @@
 # 更新日志
 
+## v3.10.2
+
+`2021-04-19`
+
+- 修复搜索框图标不展示的问题
+- 修复 import type 可能导致分析组件样式依赖关系错误的问题
+
+## v3.10.1
+
+`2021-04-16`
+
+- 升级 `@vant/markdown-vetur` 2.2.0 版本
+- 移除 friendly-errors-webpack-plugin
+- 移除 @babel/plugin-transform-runtime
+
 ## v3.10.0
 
 `2021-04-10`
